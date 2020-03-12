@@ -1,0 +1,19 @@
+{
+    "recommendations": [
+        "pkief.material-icon-theme",
+        "hookyqr.beautify",
+        "ms-ceintl.vscode-language-pack-zh-hant",
+        "compulim.vscode-chinese-translation",
+        "msjsdiag.debugger-for-chrome",
+        "editorconfig.editorconfig",
+        "davidanson.vscode-markdownlint",
+        "spmeesseman.vscode-taskexplorer",
+        "wayou.vscode-todo-highlight",
+        "mikestead.dotenv",
+        "dbaeumer.vscode-eslint",
+        "xabikos.javascriptsnippets",
+        "eg2.vscode-npm-script",
+        "christian-kohler.npm-intellisense",
+        "chenxsan.vscode-standardjs"
+    ]
+}

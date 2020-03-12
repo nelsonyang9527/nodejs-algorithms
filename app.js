@@ -1,0 +1,25 @@
+const LinearSearch = require('./algorithms/LinearSearch')
+const BinarySearch = require('./algorithms/BinarySearch')
+const BubbleSort = require('./algorithms/BubbleSort')
+const SelectionSort = require('./algorithms/SelectionSort')
+const InsertionSort = require('./algorithms/SelectionSort')
+const MergeSort = require('./algorithms/MergeSort')
+const QuickSort = require('./algorithms/QuickSort')
+const ShellSort = require('./algorithms/ShellSort')
+const RadixSort = require('./algorithms/RadixSort')
+const CocktailSort = require('./algorithms/CocktailSort')
+
+const array = [1, 3, 8, 2, 7, 5]
+const array2 = [4, 88, 17, 22, 33, 55]
+
+console.log('線性搜尋:' + LinearSearch.go(array, 3))
+console.log('二元搜尋:' + BinarySearch.go(array, 3))
+console.log('冒泡排序:' + BubbleSort.go(array))
+console.log('選擇排序:' + SelectionSort.go(array))
+console.log('插入排序:' + InsertionSort.go(array))
+console.log('合併排序:' + MergeSort.go(array, array2))
+console.log('快速排序:' + QuickSort.go(array))
+console.log('希爾排序:' + ShellSort.go(array))
+console.log('基數排序:' + RadixSort.go(array, 5))
+console.log('雞尾酒排序(遞增):' + CocktailSort.cocktailSort(array))
+console.log('雞尾酒排序(遞減):' + CocktailSort.cocktailSortDesc(array))
